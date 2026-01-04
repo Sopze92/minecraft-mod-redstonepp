@@ -1,0 +1,58 @@
+{
+  "format_version": "1.21.6",
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "redstonepp:block/oscillator",
+    "base": "redstonepp:block/oscillator",
+    "trim": "redstonepp:block/diode_trim_0",
+    "stone": "block/smooth_stone",
+    "torch": "block/redstone_torch_off"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to": [16, 2, 16],
+      "faces": {
+        "north": {"uv": [0, 14, 16, 16], "texture": "#stone", "cullface": "north"},
+        "east": {"uv": [0, 14, 16, 16], "texture": "#stone", "cullface": "east"},
+        "south": {"uv": [0, 14, 16, 16], "texture": "#stone", "cullface": "south"},
+        "west": {"uv": [0, 14, 16, 16], "texture": "#stone", "cullface": "west"},
+        "up": {"uv": [0, 0, 16, 16], "texture": "#base"},
+        "down": {"uv": [0, 0, 16, 16], "texture": "#stone", "cullface": "down"}
+      }
+    },
+    {
+      "from": [7, 2, 2],
+      "to": [9, 7, 4],
+      "faces": {
+        "north": {"uv": [7, 6, 9, 11], "texture": "#torch"},
+        "east": {"uv": [7, 6, 9, 11], "texture": "#torch"},
+        "south": {"uv": [7, 6, 9, 11], "texture": "#torch"},
+        "west": {"uv": [7, 6, 9, 11], "texture": "#torch"},
+        "up": {"uv": [7, 6, 9, 8], "texture": "#torch"}
+      }
+    },
+    {
+      "from": [3, 2, 10],
+      "to": [13, 4, 14],
+      "faces": {
+        "north": {"uv": [0, 14, 10, 16], "texture": "#trim"},
+        "east": {"uv": [10, 10, 12, 14], "rotation": 90, "texture": "#trim"},
+        "south": {"uv": [0, 14, 10, 16], "texture": "#trim"},
+        "west": {"uv": [10, 10, 12, 14], "rotation": 90, "texture": "#trim"},
+        "up": {"uv": [0, 10, 10, 14], "texture": "#trim"}
+      }
+    },
+    {
+      "from": [4.5, 2, 6],
+      "to": [11.5, 4, 9],
+      "faces": {
+        "north": {"uv": [8, 0, 10, 7], "rotation": 270, "texture": "#trim"},
+        "east": {"uv": [11, 6, 14, 8], "texture": "#trim"},
+        "south": {"uv": [12, 0, 14, 7], "rotation": 90, "texture": "#trim"},
+        "west": {"uv": [8, 6, 11, 8], "texture": "#trim"},
+        "up": {"uv": [9.5, 0, 12.5, 7], "rotation": 90, "texture": "#trim"}
+      }
+    }
+  ]
+}

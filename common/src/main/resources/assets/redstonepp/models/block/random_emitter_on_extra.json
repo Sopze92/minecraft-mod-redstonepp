@@ -1,0 +1,58 @@
+{
+  "format_version": "1.21.6",
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "redstonepp:block/signal_operator",
+    "torch": "block/redstone_torch"
+  },
+  "elements": [
+    {
+      "from": [9.5, 4.5, 1.5],
+      "to": [9.5, 7.5, 4.5],
+      "shade": false,
+      "faces": {
+        "west": {"uv": [9, 5, 10, 6], "texture": "#torch"}
+      }
+    },
+    {
+      "from": [6.5, 4.5, 1.5],
+      "to": [6.5, 7.5, 4.5],
+      "shade": false,
+      "faces": {
+        "east": {"uv": [9, 5, 10, 6], "texture": "#torch"}
+      }
+    },
+    {
+      "from": [6.5, 4.5, 1.5],
+      "to": [9.5, 4.5, 4.5],
+      "shade": false,
+      "faces": {
+        "up": {"uv": [9, 5, 10, 6], "texture": "#torch"}
+      }
+    },
+    {
+      "from": [6.5, 7.5, 1.5],
+      "to": [9.5, 7.5, 4.5],
+      "shade": false,
+      "faces": {
+        "down": {"uv": [9, 5, 10, 6], "texture": "#torch"}
+      }
+    },
+    {
+      "from": [6.5, 4.5, 4.5],
+      "to": [9.5, 7.5, 4.5],
+      "shade": false,
+      "faces": {
+        "north": {"uv": [9, 5, 10, 6], "texture": "#torch"}
+      }
+    },
+    {
+      "from": [6.5, 4.5, 1.5],
+      "to": [9.5, 7.5, 1.5],
+      "shade": false,
+      "faces": {
+        "south": {"uv": [9, 5, 10, 6], "texture": "#torch"}
+      }
+    }
+  ]
+}

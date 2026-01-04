@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "inverted=false": { "model": "redstonepp:block/light_detector" },
+    "inverted=true": { "model": "redstonepp:block/light_detector_inverted" }
+  }
+}

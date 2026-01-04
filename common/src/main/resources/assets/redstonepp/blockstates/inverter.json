@@ -1,0 +1,52 @@
+{
+  "multipart": [
+    {
+      "apply": {"model": "redstonepp:block/inverter"},
+      "when": {"AND": [{"facing": "south", "powered": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/inverter", "y": 90},
+      "when": {"AND": [{"facing": "west", "powered": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/inverter", "y": 180},
+      "when": { "AND": [{"facing": "north", "powered": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/inverter", "y": 270},
+      "when": {"AND": [{"facing": "east", "powered": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/inverter_lock"},
+      "when": {"AND": [{"facing": "south", "locked": "true"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/inverter_lock", "y": 90},
+      "when": {"AND": [{"facing": "west", "locked": "true"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/inverter_lock", "y": 180},
+      "when": { "AND": [{"facing": "north", "locked": "true"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/inverter_lock", "y": 270},
+      "when": {"AND": [{"facing": "east", "locked": "true"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/inverter_on"},
+      "when": {"AND": [{"facing": "south", "powered": "true"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/inverter_on", "y": 90},
+      "when": {"AND": [{"facing": "west", "powered": "true"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/inverter_on", "y": 180},
+      "when": { "AND": [{"facing": "north", "powered": "true"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/inverter_on", "y": 270},
+      "when": {"AND": [{"facing": "east", "powered": "true"}]}
+    }
+  ]
+}

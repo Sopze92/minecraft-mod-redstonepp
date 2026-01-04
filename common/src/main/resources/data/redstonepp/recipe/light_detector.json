@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BBB",
+    "CCC"
+  ],
+  "key": {
+    "A": "minecraft:glass",
+    "B": "minecraft:quartz",
+    "C": "minecraft:stone"
+  },
+  "result": {
+    "id": "redstonepp:light_detector",
+    "count": 1
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "${mod_id}",
+  "version": "${version}",
+  "name": "${mod_name}",
+  "description": "${description}",
+  "icon": "assets/${mod_id}/icon.png",
+  "license": "${license}",
+  "authors": [
+    { "name": "Sergio 'sopze'", "contact": { "homepage": "https://sopze.com/", "email": "sergiodepa92@gmail.com" } }
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/${mod_id}",
+    "sources": "https://github.com/Sopze92/minecraft-mod-${mod_id}",
+    "issues": "https://github.com/Sopze92/minecraft-mod-${mod_id}/issues"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "link.redstonepp.authorpage": "https://sopze.com/"
+      }
+    }
+  },
+  "depends": {
+    "java": ">=${java_version}",
+    "minecraft": "${minecraft_version_range_fabric}",
+    "fabricloader": ">=${fabric_loader_version}",
+    "fabric-api": "*"
+  },
+  "conflicts": {
+	  "ironrustwipe": "*"
+  },
+  "environment": "*",
+  "entrypoints": {
+    "client": [ "com.sopze.mc.${mod_id}.MainClient" ],
+    "main": [ "com.sopze.mc.${mod_id}.MainFabric" ],
+    "modmenu": [ "com.sopze.mc.${mod_id}.comms.ModMenu" ]
+  },
+  "mixins": [
+    "mixins.common.json",
+    "mixins.fabric.client.json",
+    "mixins.fabric.common.json"
+  ]
+}
+  

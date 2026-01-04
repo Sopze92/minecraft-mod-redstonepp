@@ -1,0 +1,12 @@
+{
+  "format_version": "1.21.6",
+  "ambientocclusion": false,
+  "parent": "redstonepp:block/pulse",
+  "textures": {
+    "particle": "redstonepp:block/pulse",
+    "trim2": "redstonepp:block/diode_trim_1_on",
+    "base": "redstonepp:block/pulse_on",
+    "trim": "redstonepp:block/diode_trim_0_on",
+    "torch": "block/redstone_torch"
+  }
+}

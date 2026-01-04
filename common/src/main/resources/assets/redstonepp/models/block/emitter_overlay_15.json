@@ -1,0 +1,17 @@
+{
+  "format_version": "1.21.6",
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "redstonepp:block/emitter_overlay",
+    "base": "redstonepp:block/emitter_overlay"
+  },
+  "elements": [
+    {
+      "from": [0, 10.0125, 7.5],
+      "to": [16, 10.0125, 16],
+      "faces": {
+        "up": {"uv": [0, 7.5, 16, 16], "texture": "#base"}
+      }
+    }
+  ]
+}

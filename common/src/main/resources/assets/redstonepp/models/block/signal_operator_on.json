@@ -1,0 +1,10 @@
+{
+  "format_version": "1.21.6",
+  "ambientocclusion": false,
+  "parent": "redstonepp:block/signal_operator",
+  "textures": {
+    "particle": "redstonepp:block/signal_operator",
+    "base": "redstonepp:block/signal_operator_on",
+    "torch": "block/redstone_torch"
+  }
+}

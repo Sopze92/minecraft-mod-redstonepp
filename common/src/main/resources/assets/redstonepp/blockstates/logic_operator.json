@@ -1,0 +1,308 @@
+{
+  "multipart": [
+    {
+      "apply": {"model": "redstonepp:block/logic_operator"},
+      "when": {"AND": [{"facing": "south", "powered": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/logic_operator", "y": 90},
+      "when": {"AND": [{"facing": "west", "powered": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/logic_operator", "y": 180},
+      "when": { "AND": [{"facing": "north", "powered": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/logic_operator", "y": 270},
+      "when": {"AND": [{"facing": "east", "powered": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/logic_operator_on"},
+      "when": {"AND": [{"facing": "south", "powered": "true"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/logic_operator_on", "y": 90},
+      "when": {"AND": [{"facing": "west", "powered": "true"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/logic_operator_on", "y": 180},
+      "when": { "AND": [{"facing": "north", "powered": "true"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/logic_operator_on", "y": 270},
+      "when": {"AND": [{"facing": "east", "powered": "true"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/operator_on_extra"},
+      "when": {"AND": [{"facing": "south", "powered": "true"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/operator_on_extra", "y": 90},
+      "when": {"AND": [{"facing": "west", "powered": "true"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/operator_on_extra", "y": 180},
+      "when": { "AND": [{"facing": "north", "powered": "true"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/operator_on_extra", "y": 270},
+      "when": {"AND": [{"facing": "east", "powered": "true"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/operator_pass"},
+      "when": {"AND": [{"facing": "south", "signal": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/operator_pass", "y": 90},
+      "when": {"AND": [{"facing": "west", "signal": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/operator_pass", "y": 180},
+      "when": { "AND": [{"facing": "north", "signal": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/operator_pass", "y": 270},
+      "when": {"AND": [{"facing": "east", "signal": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_1"},
+      "when": {"AND": [{"facing": "south", "value": "1"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_1", "y": 90},
+      "when": {"AND": [{"facing": "west", "value": "1"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_1", "y": 180},
+      "when": { "AND": [{"facing": "north", "value": "1"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_1", "y": 270},
+      "when": {"AND": [{"facing": "east", "value": "1"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_2"},
+      "when": {"AND": [{"facing": "south", "value": "2"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_2", "y": 90},
+      "when": {"AND": [{"facing": "west", "value": "2"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_2", "y": 180},
+      "when": { "AND": [{"facing": "north", "value": "2"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_2", "y": 270},
+      "when": {"AND": [{"facing": "east", "value": "2"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_3"},
+      "when": {"AND": [{"facing": "south", "value": "3"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_3", "y": 90},
+      "when": {"AND": [{"facing": "west", "value": "3"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_3", "y": 180},
+      "when": { "AND": [{"facing": "north", "value": "3"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_3", "y": 270},
+      "when": {"AND": [{"facing": "east", "value": "3"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_4"},
+      "when": {"AND": [{"facing": "south", "value": "4"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_4", "y": 90},
+      "when": {"AND": [{"facing": "west", "value": "4"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_4", "y": 180},
+      "when": { "AND": [{"facing": "north", "value": "4"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_4", "y": 270},
+      "when": {"AND": [{"facing": "east", "value": "4"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_5"},
+      "when": {"AND": [{"facing": "south", "value": "5"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_5", "y": 90},
+      "when": {"AND": [{"facing": "west", "value": "5"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_5", "y": 180},
+      "when": { "AND": [{"facing": "north", "value": "5"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_5", "y": 270},
+      "when": {"AND": [{"facing": "east", "value": "5"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_6"},
+      "when": {"AND": [{"facing": "south", "value": "6"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_6", "y": 90},
+      "when": {"AND": [{"facing": "west", "value": "6"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_6", "y": 180},
+      "when": { "AND": [{"facing": "north", "value": "6"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_6", "y": 270},
+      "when": {"AND": [{"facing": "east", "value": "6"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_7"},
+      "when": {"AND": [{"facing": "south", "value": "7"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_7", "y": 90},
+      "when": {"AND": [{"facing": "west", "value": "7"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_7", "y": 180},
+      "when": { "AND": [{"facing": "north", "value": "7"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_7", "y": 270},
+      "when": {"AND": [{"facing": "east", "value": "7"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_8"},
+      "when": {"AND": [{"facing": "south", "value": "8"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_8", "y": 90},
+      "when": {"AND": [{"facing": "west", "value": "8"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_8", "y": 180},
+      "when": { "AND": [{"facing": "north", "value": "8"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_8", "y": 270},
+      "when": {"AND": [{"facing": "east", "value": "8"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_9"},
+      "when": {"AND": [{"facing": "south", "value": "9"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_9", "y": 90},
+      "when": {"AND": [{"facing": "west", "value": "9"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_9", "y": 180},
+      "when": { "AND": [{"facing": "north", "value": "9"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_9", "y": 270},
+      "when": {"AND": [{"facing": "east", "value": "9"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_10"},
+      "when": {"AND": [{"facing": "south", "value": "10"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_10", "y": 90},
+      "when": {"AND": [{"facing": "west", "value": "10"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_10", "y": 180},
+      "when": { "AND": [{"facing": "north", "value": "10"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_10", "y": 270},
+      "when": {"AND": [{"facing": "east", "value": "10"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_11"},
+      "when": {"AND": [{"facing": "south", "value": "11"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_11", "y": 90},
+      "when": {"AND": [{"facing": "west", "value": "11"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_11", "y": 180},
+      "when": { "AND": [{"facing": "north", "value": "11"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_11", "y": 270},
+      "when": {"AND": [{"facing": "east", "value": "11"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_12"},
+      "when": {"AND": [{"facing": "south", "value": "12"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_12", "y": 90},
+      "when": {"AND": [{"facing": "west", "value": "12"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_12", "y": 180},
+      "when": { "AND": [{"facing": "north", "value": "12"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_12", "y": 270},
+      "when": {"AND": [{"facing": "east", "value": "12"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_13"},
+      "when": {"AND": [{"facing": "south", "value": "13"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_13", "y": 90},
+      "when": {"AND": [{"facing": "west", "value": "13"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_13", "y": 180},
+      "when": { "AND": [{"facing": "north", "value": "13"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_13", "y": 270},
+      "when": {"AND": [{"facing": "east", "value": "13"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_14"},
+      "when": {"AND": [{"facing": "south", "value": "14"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_14", "y": 90},
+      "when": {"AND": [{"facing": "west", "value": "14"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_14", "y": 180},
+      "when": { "AND": [{"facing": "north", "value": "14"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_14", "y": 270},
+      "when": {"AND": [{"facing": "east", "value": "14"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_15"},
+      "when": {"AND": [{"facing": "south", "value": "15"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_15", "y": 90},
+      "when": {"AND": [{"facing": "west", "value": "15"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_15", "y": 180},
+      "when": { "AND": [{"facing": "north", "value": "15"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_overlay_15", "y": 270},
+      "when": {"AND": [{"facing": "east", "value": "15"}]}
+    }
+  ]
+}

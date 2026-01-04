@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABC",
+    "DDD"
+  ],
+  "key": {
+    "A": "minecraft:redstone",
+    "B": "minecraft:resin_brick",
+    "C": "minecraft:redstone_torch",
+    "D": "minecraft:stone"
+  },
+  "result": {
+    "id": "redstonepp:resistor",
+    "count": 1
+  }
+}

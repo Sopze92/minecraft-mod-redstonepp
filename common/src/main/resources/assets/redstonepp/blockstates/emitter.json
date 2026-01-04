@@ -1,0 +1,292 @@
+{
+  "multipart": [
+    {
+      "apply": {"model": "redstonepp:block/emitter"},
+      "when": {"AND": [{"facing": "south", "signal": "0"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter", "y": 90},
+      "when": {"AND": [{"facing": "west", "signal": "0"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter", "y": 180},
+      "when": { "AND": [{"facing": "north", "signal": "0"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter", "y": 270},
+      "when": {"AND": [{"facing": "east", "signal": "0"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_on"},
+      "when": {"AND": [{"facing": "south", "signal": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_on", "y": 90},
+      "when": {"AND": [{"facing": "west", "signal": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_on", "y": 180},
+      "when": { "AND": [{"facing": "north", "signal": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_on", "y": 270},
+      "when": {"AND": [{"facing": "east", "signal": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_on_extra"},
+      "when": {"AND": [{"facing": "south", "signal": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_on_extra", "y": 90},
+      "when": {"AND": [{"facing": "west", "signal": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_on_extra", "y": 180},
+      "when": { "AND": [{"facing": "north", "signal": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_on_extra", "y": 270},
+      "when": {"AND": [{"facing": "east", "signal": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_1"},
+      "when": {"AND": [{"facing": "south", "signal": "1"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_1", "y": 90},
+      "when": {"AND": [{"facing": "west", "signal": "1"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_1", "y": 180},
+      "when": { "AND": [{"facing": "north", "signal": "1"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_1", "y": 270},
+      "when": {"AND": [{"facing": "east", "signal": "1"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_2"},
+      "when": {"AND": [{"facing": "south", "signal": "2"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_2", "y": 90},
+      "when": {"AND": [{"facing": "west", "signal": "2"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_2", "y": 180},
+      "when": { "AND": [{"facing": "north", "signal": "2"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_2", "y": 270},
+      "when": {"AND": [{"facing": "east", "signal": "2"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_3"},
+      "when": {"AND": [{"facing": "south", "signal": "3"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_3", "y": 90},
+      "when": {"AND": [{"facing": "west", "signal": "3"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_3", "y": 180},
+      "when": { "AND": [{"facing": "north", "signal": "3"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_3", "y": 270},
+      "when": {"AND": [{"facing": "east", "signal": "3"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_4"},
+      "when": {"AND": [{"facing": "south", "signal": "4"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_4", "y": 90},
+      "when": {"AND": [{"facing": "west", "signal": "4"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_4", "y": 180},
+      "when": { "AND": [{"facing": "north", "signal": "4"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_4", "y": 270},
+      "when": {"AND": [{"facing": "east", "signal": "4"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_5"},
+      "when": {"AND": [{"facing": "south", "signal": "5"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_5", "y": 90},
+      "when": {"AND": [{"facing": "west", "signal": "5"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_5", "y": 180},
+      "when": { "AND": [{"facing": "north", "signal": "5"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_5", "y": 270},
+      "when": {"AND": [{"facing": "east", "signal": "5"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_6"},
+      "when": {"AND": [{"facing": "south", "signal": "6"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_6", "y": 90},
+      "when": {"AND": [{"facing": "west", "signal": "6"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_6", "y": 180},
+      "when": { "AND": [{"facing": "north", "signal": "6"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_6", "y": 270},
+      "when": {"AND": [{"facing": "east", "signal": "6"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_7"},
+      "when": {"AND": [{"facing": "south", "signal": "7"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_7", "y": 90},
+      "when": {"AND": [{"facing": "west", "signal": "7"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_7", "y": 180},
+      "when": { "AND": [{"facing": "north", "signal": "7"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_7", "y": 270},
+      "when": {"AND": [{"facing": "east", "signal": "7"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_8"},
+      "when": {"AND": [{"facing": "south", "signal": "8"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_8", "y": 90},
+      "when": {"AND": [{"facing": "west", "signal": "8"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_8", "y": 180},
+      "when": { "AND": [{"facing": "north", "signal": "8"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_8", "y": 270},
+      "when": {"AND": [{"facing": "east", "signal": "8"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_9"},
+      "when": {"AND": [{"facing": "south", "signal": "9"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_9", "y": 90},
+      "when": {"AND": [{"facing": "west", "signal": "9"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_9", "y": 180},
+      "when": { "AND": [{"facing": "north", "signal": "9"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_9", "y": 270},
+      "when": {"AND": [{"facing": "east", "signal": "9"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_10"},
+      "when": {"AND": [{"facing": "south", "signal": "10"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_10", "y": 90},
+      "when": {"AND": [{"facing": "west", "signal": "10"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_10", "y": 180},
+      "when": { "AND": [{"facing": "north", "signal": "10"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_10", "y": 270},
+      "when": {"AND": [{"facing": "east", "signal": "10"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_11"},
+      "when": {"AND": [{"facing": "south", "signal": "11"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_11", "y": 90},
+      "when": {"AND": [{"facing": "west", "signal": "11"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_11", "y": 180},
+      "when": { "AND": [{"facing": "north", "signal": "11"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_11", "y": 270},
+      "when": {"AND": [{"facing": "east", "signal": "11"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_12"},
+      "when": {"AND": [{"facing": "south", "signal": "12"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_12", "y": 90},
+      "when": {"AND": [{"facing": "west", "signal": "12"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_12", "y": 180},
+      "when": { "AND": [{"facing": "north", "signal": "12"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_12", "y": 270},
+      "when": {"AND": [{"facing": "east", "signal": "12"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_13"},
+      "when": {"AND": [{"facing": "south", "signal": "13"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_13", "y": 90},
+      "when": {"AND": [{"facing": "west", "signal": "13"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_13", "y": 180},
+      "when": { "AND": [{"facing": "north", "signal": "13"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_13", "y": 270},
+      "when": {"AND": [{"facing": "east", "signal": "13"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_14"},
+      "when": {"AND": [{"facing": "south", "signal": "14"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_14", "y": 90},
+      "when": {"AND": [{"facing": "west", "signal": "14"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_14", "y": 180},
+      "when": { "AND": [{"facing": "north", "signal": "14"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_14", "y": 270},
+      "when": {"AND": [{"facing": "east", "signal": "14"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_15"},
+      "when": {"AND": [{"facing": "south", "signal": "15"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_15", "y": 90},
+      "when": {"AND": [{"facing": "west", "signal": "15"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_15", "y": 180},
+      "when": { "AND": [{"facing": "north", "signal": "15"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/emitter_overlay_15", "y": 270},
+      "when": {"AND": [{"facing": "east", "signal": "15"}]}
+    }
+  ]
+}

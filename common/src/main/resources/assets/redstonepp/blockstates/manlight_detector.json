@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "inverted=false": { "model": "redstonepp:block/manlight_detector" },
+    "inverted=true": { "model": "redstonepp:block/manlight_detector_inverted" }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCD",
+    "EEE"
+  ],
+  "key": {
+    "A": "minecraft:redstone_torch",
+    "B": "minecraft:gunpowder",
+    "C": "minecraft:redstone_block",
+    "D": "minecraft:tripwire_hook",
+    "E": "minecraft:stone"
+  },
+  "result": {
+    "id": "redstonepp:random_emitter",
+    "count": 1
+  }
+}

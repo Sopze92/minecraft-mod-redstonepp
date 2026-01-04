@@ -1,0 +1,10 @@
+{
+  "format_version": "1.21.6",
+  "ambientocclusion": false,
+  "parent": "redstonepp:block/logic_operator",
+  "textures": {
+    "particle": "redstonepp:block/logic_operator",
+    "base": "redstonepp:block/logic_operator_on",
+    "torch": "block/redstone_torch"
+  }
+}

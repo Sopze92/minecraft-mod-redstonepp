@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCB",
+    "DDD"
+  ],
+  "key": {
+    "A": "minecraft:redstone_torch",
+    "B": "minecraft:resin_brick",
+    "C": "minecraft:bone_meal",
+    "D": "minecraft:stone"
+  },
+  "result": {
+    "id": "redstonepp:regulator",
+    "count": 1
+  }
+}

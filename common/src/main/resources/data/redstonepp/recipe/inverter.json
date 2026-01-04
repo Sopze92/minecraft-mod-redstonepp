@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CCC"
+  ],
+  "key": {
+    "A": "minecraft:redstone",
+    "B": "minecraft:redstone_torch",
+    "C": "minecraft:stone"
+  },
+  "result": {
+    "id": "redstonepp:inverter",
+    "count": 1
+  }
+}

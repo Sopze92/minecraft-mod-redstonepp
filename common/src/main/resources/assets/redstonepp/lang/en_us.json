@@ -1,0 +1,40 @@
+{
+  "link.redstonepp.authorpage":                       "Author Page",
+
+  "gui.redstonepp.title.menu":                        "Redstone++ Menu",
+  "gui.redstonepp.menu.active":                       "Global Redstone++ Enable State",
+  "gui.redstonepp.menu.options":                      "Options...",
+  "gui.redstonepp.menu.menubutton":                   "Menu Button",
+  "gui.redstonepp.menu.menubutton.tooltip":           "Add a button to enter this menu from the default options menu",
+
+  "gui.redstonepp.title.options":                     "Options",
+  "gui.redstonepp.options.debug":                     "Debug Options",
+  "gui.redstonepp.debug.renderer":                    "Redstone Overlay",
+  "gui.redstonepp.debug.renderer.tooltip":            "In-game overlay that renders info about redstone blocks",
+  "gui.redstonepp.debug.showrange":                   "Show Range Info",
+  "gui.redstonepp.debug.showrange.tooltip":           "Render some basic info over redstone blocks within a range",
+  "gui.redstonepp.debug.showtarget":                  "Show Target Info",
+  "gui.redstonepp.debug.showtarget.tooltip":          "Render extended info over redstone blocks when you're looking at them",
+  "gui.redstonepp.debug.range":                       "Range Distance",
+  "gui.redstonepp.debug.range.tooltip":               "Radius of the range renderer",
+  "gui.redstonepp.debug.rangefromtarget":             "Range From Target",
+  "gui.redstonepp.debug.rangefromtarget.tooltip":     "Whether range origin should be the targeted block instead of player position",
+  "gui.redstonepp.debug.unpoweredwire":               "Show Unpowered Wire",
+  "gui.redstonepp.debug.unpoweredwire.tooltip":       "Show Redstone Wire Block with power 0 in Range renderer",
+
+  "block.redstonepp.emitter":                         "Redstone Emitter",
+  "block.redstonepp.random_emitter":                  "Redstone Random Emitter",
+  "block.redstonepp.inverter":                        "Redstone Inverter",
+  "block.redstonepp.pulse":                           "Redstone Pulse",
+  "block.redstonepp.oscillator":                      "Redstone Oscillator",
+  "block.redstonepp.delay":                           "Redstone Delay",
+  "block.redstonepp.regulator":                       "Redstone Regulator",
+  "block.redstonepp.resistor":                        "Redstone Resistor",
+  "block.redstonepp.coil":                            "Redstone Coil",
+
+  "block.redstonepp.signal_operator":                 "Redstone Signal Operator",
+  "block.redstonepp.logic_operator":                  "Redstone Logical Operator",
+
+  "block.redstonepp.manlight_detector":               "Manlight Detector",
+  "block.redstonepp.light_detector":                  "Light Detector"
+}

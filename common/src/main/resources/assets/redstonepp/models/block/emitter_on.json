@@ -1,0 +1,12 @@
+{
+  "format_version": "1.21.redstone",
+  "ambientocclusion": false,
+  "parent": "redstonepp:block/emitter",
+  "textures": {
+    "front": "redstonepp:block/emitter_front_on",
+    "redstone": "redstonepp:block/emitter_redstone_on",
+    "particle": "redstonepp:block/emitter_top",
+    "base": "redstonepp:block/emitter_top_on",
+    "torch": "block/redstone_torch"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BBB",
+    "CCC"
+  ],
+  "key": {
+    "A": "minecraft:glass",
+    "B": "minecraft:quartz",
+    "C": "minecraft:deepslate"
+  },
+  "result": {
+    "id": "redstonepp:manlight_detector",
+    "count": 1
+  }
+}

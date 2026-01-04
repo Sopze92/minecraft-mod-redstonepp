@@ -1,0 +1,26 @@
+{
+  "format_version": "1.21.6",
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "block/smooth_stone",
+    "overlay": "redstonepp:block/oscillator_overlay"
+  },
+  "elements": [
+    {
+      "from": [0, 2.0125, 1.5],
+      "to": [8, 2.0125, 3.5],
+      "shade": false,
+      "faces": {
+        "up": {"uv": [0, 1.5, 8, 3.5], "texture": "#overlay"}
+      }
+    },
+    {
+      "from": [0, 2.0125, 3.5],
+      "to": [12, 2.0125, 5.5],
+      "shade": false,
+      "faces": {
+        "up": {"uv": [0, 3.5, 12, 5.5], "texture": "#overlay"}
+      }
+    }
+  ]
+}

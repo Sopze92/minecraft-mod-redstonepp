@@ -1,0 +1,388 @@
+{
+  "multipart": [
+    {
+      "apply": {"model": "redstonepp:block/delay"},
+      "when": {"AND": [{"facing": "south", "powered": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay", "y": 90},
+      "when": {"AND": [{"facing": "west", "powered": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay", "y": 180},
+      "when": { "AND": [{"facing": "north", "powered": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay", "y": 270},
+      "when": {"AND": [{"facing": "east", "powered": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_on"},
+      "when": {"AND": [{"facing": "south", "powered": "true"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_on", "y": 90},
+      "when": {"AND": [{"facing": "west", "powered": "true"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_on", "y": 180},
+      "when": { "AND": [{"facing": "north", "powered": "true"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_on", "y": 270},
+      "when": {"AND": [{"facing": "east", "powered": "true"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_on_extra"},
+      "when": {"AND": [{"facing": "south", "powered": "true"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_on_extra", "y": 90},
+      "when": {"AND": [{"facing": "west", "powered": "true"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_on_extra", "y": 180},
+      "when": { "AND": [{"facing": "north", "powered": "true"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_on_extra", "y": 270},
+      "when": {"AND": [{"facing": "east", "powered": "true"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_0"},
+      "when": {"AND": [{"facing": "south", "locked": "false", "powered": "false", "level": "0"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_0", "y": 90},
+      "when": {"AND": [{"facing": "west", "locked": "false", "powered": "false", "level": "0"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_0", "y": 180},
+      "when": { "AND": [{"facing": "north", "locked": "false", "powered": "false", "level": "0"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_0", "y": 270},
+      "when": {"AND": [{"facing": "east", "locked": "false", "powered": "false", "level": "0"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_0_on"},
+      "when": {"AND": [{"facing": "south", "locked": "false", "powered": "true", "level": "0"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_0_on", "y": 90},
+      "when": {"AND": [{"facing": "west", "locked": "false", "powered": "true", "level": "0"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_0_on", "y": 180},
+      "when": { "AND": [{"facing": "north", "locked": "false", "powered": "true", "level": "0"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_0_on", "y": 270},
+      "when": {"AND": [{"facing": "east", "locked": "false", "powered": "true", "level": "0"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_0_locked"},
+      "when": {"AND": [{"facing": "south", "locked": "true", "level": "0"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_0_locked", "y": 90},
+      "when": {"AND": [{"facing": "west", "locked": "true", "level": "0"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_0_locked", "y": 180},
+      "when": { "AND": [{"facing": "north", "locked": "true", "level": "0"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_0_locked", "y": 270},
+      "when": {"AND": [{"facing": "east", "locked": "true", "level": "0"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_1"},
+      "when": {"AND": [{"facing": "south", "locked": "false", "powered": "false", "level": "1"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_1", "y": 90},
+      "when": {"AND": [{"facing": "west", "locked": "false", "powered": "false", "level": "1"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_1", "y": 180},
+      "when": { "AND": [{"facing": "north", "locked": "false", "powered": "false", "level": "1"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_1", "y": 270},
+      "when": {"AND": [{"facing": "east", "locked": "false", "powered": "false", "level": "1"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_1_on"},
+      "when": {"AND": [{"facing": "south", "locked": "false", "powered": "true", "level": "1"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_1_on", "y": 90},
+      "when": {"AND": [{"facing": "west", "locked": "false", "powered": "true", "level": "1"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_1_on", "y": 180},
+      "when": { "AND": [{"facing": "north", "locked": "false", "powered": "true", "level": "1"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_1_on", "y": 270},
+      "when": {"AND": [{"facing": "east", "locked": "false", "powered": "true", "level": "1"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_1_locked"},
+      "when": {"AND": [{"facing": "south", "locked": "true", "level": "1"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_1_locked", "y": 90},
+      "when": {"AND": [{"facing": "west", "locked": "true", "level": "1"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_1_locked", "y": 180},
+      "when": { "AND": [{"facing": "north", "locked": "true", "level": "1"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_1_locked", "y": 270},
+      "when": {"AND": [{"facing": "east", "locked": "true", "level": "1"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_2"},
+      "when": {"AND": [{"facing": "south", "locked": "false", "powered": "false", "level": "2"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_2", "y": 90},
+      "when": {"AND": [{"facing": "west", "locked": "false", "powered": "false", "level": "2"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_2", "y": 180},
+      "when": { "AND": [{"facing": "north", "locked": "false", "powered": "false", "level": "2"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_2", "y": 270},
+      "when": {"AND": [{"facing": "east", "locked": "false", "powered": "false", "level": "2"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_2_on"},
+      "when": {"AND": [{"facing": "south", "locked": "false", "powered": "true", "level": "2"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_2_on", "y": 90},
+      "when": {"AND": [{"facing": "west", "locked": "false", "powered": "true", "level": "2"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_2_on", "y": 180},
+      "when": { "AND": [{"facing": "north", "locked": "false", "powered": "true", "level": "2"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_2_on", "y": 270},
+      "when": {"AND": [{"facing": "east", "locked": "false", "powered": "true", "level": "2"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_2_locked"},
+      "when": {"AND": [{"facing": "south", "locked": "true", "level": "2"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_2_locked", "y": 90},
+      "when": {"AND": [{"facing": "west", "locked": "true", "level": "2"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_2_locked", "y": 180},
+      "when": { "AND": [{"facing": "north", "locked": "true", "level": "2"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_2_locked", "y": 270},
+      "when": {"AND": [{"facing": "east", "locked": "true", "level": "2"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_3"},
+      "when": {"AND": [{"facing": "south", "locked": "false", "powered": "false", "level": "3"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_3", "y": 90},
+      "when": {"AND": [{"facing": "west", "locked": "false", "powered": "false", "level": "3"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_3", "y": 180},
+      "when": { "AND": [{"facing": "north", "locked": "false", "powered": "false", "level": "3"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_3", "y": 270},
+      "when": {"AND": [{"facing": "east", "locked": "false", "powered": "false", "level": "3"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_3_on"},
+      "when": {"AND": [{"facing": "south", "locked": "false", "powered": "true", "level": "3"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_3_on", "y": 90},
+      "when": {"AND": [{"facing": "west", "locked": "false", "powered": "true", "level": "3"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_3_on", "y": 180},
+      "when": { "AND": [{"facing": "north", "locked": "false", "powered": "true", "level": "3"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_3_on", "y": 270},
+      "when": {"AND": [{"facing": "east", "locked": "false", "powered": "true", "level": "3"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_3_locked"},
+      "when": {"AND": [{"facing": "south", "locked": "true", "level": "3"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_3_locked", "y": 90},
+      "when": {"AND": [{"facing": "west", "locked": "true", "level": "3"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_3_locked", "y": 180},
+      "when": { "AND": [{"facing": "north", "locked": "true", "level": "3"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_3_locked", "y": 270},
+      "when": {"AND": [{"facing": "east", "locked": "true", "level": "3"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_4"},
+      "when": {"AND": [{"facing": "south", "locked": "false", "powered": "false", "level": "4"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_4", "y": 90},
+      "when": {"AND": [{"facing": "west", "locked": "false", "powered": "false", "level": "4"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_4", "y": 180},
+      "when": { "AND": [{"facing": "north", "locked": "false", "powered": "false", "level": "4"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_4", "y": 270},
+      "when": {"AND": [{"facing": "east", "locked": "false", "powered": "false", "level": "4"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_4_on"},
+      "when": {"AND": [{"facing": "south", "locked": "false", "powered": "true", "level": "4"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_4_on", "y": 90},
+      "when": {"AND": [{"facing": "west", "locked": "false", "powered": "true", "level": "4"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_4_on", "y": 180},
+      "when": { "AND": [{"facing": "north", "locked": "false", "powered": "true", "level": "4"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_4_on", "y": 270},
+      "when": {"AND": [{"facing": "east", "locked": "false", "powered": "true", "level": "4"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_4_locked"},
+      "when": {"AND": [{"facing": "south", "locked": "true", "level": "4"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_4_locked", "y": 90},
+      "when": {"AND": [{"facing": "west", "locked": "true", "level": "4"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_4_locked", "y": 180},
+      "when": { "AND": [{"facing": "north", "locked": "true", "level": "4"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_4_locked", "y": 270},
+      "when": {"AND": [{"facing": "east", "locked": "true", "level": "4"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_5"},
+      "when": {"AND": [{"facing": "south", "locked": "false", "powered": "false", "level": "5"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_5", "y": 90},
+      "when": {"AND": [{"facing": "west", "locked": "false", "powered": "false", "level": "5"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_5", "y": 180},
+      "when": { "AND": [{"facing": "north", "locked": "false", "powered": "false", "level": "5"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_5", "y": 270},
+      "when": {"AND": [{"facing": "east", "locked": "false", "powered": "false", "level": "5"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_5_on"},
+      "when": {"AND": [{"facing": "south", "locked": "false", "powered": "true", "level": "5"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_5_on", "y": 90},
+      "when": {"AND": [{"facing": "west", "locked": "false", "powered": "true", "level": "5"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_5_on", "y": 180},
+      "when": { "AND": [{"facing": "north", "locked": "false", "powered": "true", "level": "5"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_5_on", "y": 270},
+      "when": {"AND": [{"facing": "east", "locked": "false", "powered": "true", "level": "5"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_5_locked"},
+      "when": {"AND": [{"facing": "south", "locked": "true", "level": "5"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_5_locked", "y": 90},
+      "when": {"AND": [{"facing": "west", "locked": "true", "level": "5"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_5_locked", "y": 180},
+      "when": { "AND": [{"facing": "north", "locked": "true", "level": "5"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_5_locked", "y": 270},
+      "when": {"AND": [{"facing": "east", "locked": "true", "level": "5"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_6"},
+      "when": {"AND": [{"facing": "south", "locked": "false", "powered": "false", "level": "6"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_6", "y": 90},
+      "when": {"AND": [{"facing": "west", "locked": "false", "powered": "false", "level": "6"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_6", "y": 180},
+      "when": { "AND": [{"facing": "north", "locked": "false", "powered": "false", "level": "6"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_6", "y": 270},
+      "when": {"AND": [{"facing": "east", "locked": "false", "powered": "false", "level": "6"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_6_on"},
+      "when": {"AND": [{"facing": "south", "locked": "false", "powered": "true", "level": "6"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_6_on", "y": 90},
+      "when": {"AND": [{"facing": "west", "locked": "false", "powered": "true", "level": "6"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_6_on", "y": 180},
+      "when": { "AND": [{"facing": "north", "locked": "false", "powered": "true", "level": "6"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_6_on", "y": 270},
+      "when": {"AND": [{"facing": "east", "locked": "false", "powered": "true", "level": "6"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_6_locked"},
+      "when": {"AND": [{"facing": "south", "locked": "true", "level": "6"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_6_locked", "y": 90},
+      "when": {"AND": [{"facing": "west", "locked": "true", "level": "6"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_6_locked", "y": 180},
+      "when": { "AND": [{"facing": "north", "locked": "true", "level": "6"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/delay_value_6_locked", "y": 270},
+      "when": {"AND": [{"facing": "east", "locked": "true", "level": "6"}]}
+    }
+  ]
+}

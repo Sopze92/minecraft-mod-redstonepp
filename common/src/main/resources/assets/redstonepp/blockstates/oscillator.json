@@ -1,0 +1,180 @@
+{
+  "multipart": [
+    {
+      "apply": {"model": "redstonepp:block/oscillator"},
+      "when": {"AND": [{"facing": "south", "powered": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/oscillator", "y": 90},
+      "when": {"AND": [{"facing": "west", "powered": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/oscillator", "y": 180},
+      "when": { "AND": [{"facing": "north", "powered": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/oscillator", "y": 270},
+      "when": {"AND": [{"facing": "east", "powered": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/oscillator_on"},
+      "when": {"AND": [{"facing": "south", "powered": "true"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/oscillator_on", "y": 90},
+      "when": {"AND": [{"facing": "west", "powered": "true"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/oscillator_on", "y": 180},
+      "when": { "AND": [{"facing": "north", "powered": "true"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/oscillator_on", "y": 270},
+      "when": {"AND": [{"facing": "east", "powered": "true"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_on_extra"},
+      "when": {"AND": [{"facing": "south", "powered": "true"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_on_extra", "y": 90},
+      "when": {"AND": [{"facing": "west", "powered": "true"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_on_extra", "y": 180},
+      "when": { "AND": [{"facing": "north", "powered": "true"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_on_extra", "y": 270},
+      "when": {"AND": [{"facing": "east", "powered": "true"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/oscillator_overlay_0"},
+      "when": {"AND": [{"facing": "south", "level": "0"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/oscillator_overlay_0", "y": 90},
+      "when": {"AND": [{"facing": "west", "level": "0"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/oscillator_overlay_0", "y": 180},
+      "when": { "AND": [{"facing": "north", "level": "0"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/oscillator_overlay_0", "y": 270},
+      "when": {"AND": [{"facing": "east", "level": "0"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/oscillator_overlay_1"},
+      "when": {"AND": [{"facing": "south", "level": "1"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/oscillator_overlay_1", "y": 90},
+      "when": {"AND": [{"facing": "west", "level": "1"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/oscillator_overlay_1", "y": 180},
+      "when": { "AND": [{"facing": "north", "level": "1"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/oscillator_overlay_1", "y": 270},
+      "when": {"AND": [{"facing": "east", "level": "1"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/oscillator_overlay_2"},
+      "when": {"AND": [{"facing": "south", "level": "2"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/oscillator_overlay_2", "y": 90},
+      "when": {"AND": [{"facing": "west", "level": "2"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/oscillator_overlay_2", "y": 180},
+      "when": { "AND": [{"facing": "north", "level": "2"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/oscillator_overlay_2", "y": 270},
+      "when": {"AND": [{"facing": "east", "level": "2"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/oscillator_overlay_3"},
+      "when": {"AND": [{"facing": "south", "level": "3"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/oscillator_overlay_3", "y": 90},
+      "when": {"AND": [{"facing": "west", "level": "3"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/oscillator_overlay_3", "y": 180},
+      "when": { "AND": [{"facing": "north", "level": "3"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/oscillator_overlay_3", "y": 270},
+      "when": {"AND": [{"facing": "east", "level": "3"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/oscillator_overlay_4"},
+      "when": {"AND": [{"facing": "south", "level": "4"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/oscillator_overlay_4", "y": 90},
+      "when": {"AND": [{"facing": "west", "level": "4"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/oscillator_overlay_4", "y": 180},
+      "when": { "AND": [{"facing": "north", "level": "4"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/oscillator_overlay_4", "y": 270},
+      "when": {"AND": [{"facing": "east", "level": "4"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/oscillator_overlay_5"},
+      "when": {"AND": [{"facing": "south", "level": "5"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/oscillator_overlay_5", "y": 90},
+      "when": {"AND": [{"facing": "west", "level": "5"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/oscillator_overlay_5", "y": 180},
+      "when": { "AND": [{"facing": "north", "level": "5"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/oscillator_overlay_5", "y": 270},
+      "when": {"AND": [{"facing": "east", "level": "5"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/oscillator_overlay_6"},
+      "when": {"AND": [{"facing": "south", "level": "6"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/oscillator_overlay_6", "y": 90},
+      "when": {"AND": [{"facing": "west", "level": "6"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/oscillator_overlay_6", "y": 180},
+      "when": { "AND": [{"facing": "north", "level": "6"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/oscillator_overlay_6", "y": 270},
+      "when": {"AND": [{"facing": "east", "level": "6"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/oscillator_overlay_7"},
+      "when": {"AND": [{"facing": "south", "level": "7"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/oscillator_overlay_7", "y": 90},
+      "when": {"AND": [{"facing": "west", "level": "7"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/oscillator_overlay_7", "y": 180},
+      "when": { "AND": [{"facing": "north", "level": "7"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/oscillator_overlay_7", "y": 270},
+      "when": {"AND": [{"facing": "east", "level": "7"}]}
+    }
+  ]
+}

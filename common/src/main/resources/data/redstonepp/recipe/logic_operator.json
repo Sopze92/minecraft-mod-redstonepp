@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BAB",
+    "CCC",
+    "DDD"
+  ],
+  "key": {
+    "A": "minecraft:redstone_torch",
+    "B": "minecraft:quartz",
+    "C": "minecraft:amethyst_cluster",
+    "D": "minecraft:deepslate"
+  },
+  "result": {
+    "id": "redstonepp:logic_operator",
+    "count": 1
+  }
+}

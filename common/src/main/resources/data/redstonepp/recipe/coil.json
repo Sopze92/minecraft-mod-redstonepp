@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCB",
+    "DDD"
+  ],
+  "key": {
+    "A": "minecraft:redstone_torch",
+    "B": "minecraft:copper_ingot",
+    "C": "minecraft:string",
+    "D": "minecraft:stone"
+  },
+  "result": {
+    "id": "redstonepp:coil",
+    "count": 1
+  }
+}

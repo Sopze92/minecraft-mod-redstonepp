@@ -1,0 +1,21 @@
+{
+  "format_version": "1.21.6",
+  "ambientocclusion": false,
+  "textures": {
+    "lock": "block/bedrock",
+    "particle": "block/smooth_stone"
+  },
+  "elements": [
+    {
+      "from": [2, 2, 8],
+      "to": [14, 7, 10],
+      "faces": {
+        "north": {"uv": [2, 7, 14, 12], "texture": "#lock"},
+        "east": {"uv": [0, 7, 2, 12], "texture": "#lock"},
+        "south": {"uv": [2, 1, 14, 6], "texture": "#lock"},
+        "west": {"uv": [14, 7, 16, 12], "texture": "#lock"},
+        "up": {"uv": [14, 8, 2, 6], "texture": "#lock"}
+      }
+    }
+  ]
+}

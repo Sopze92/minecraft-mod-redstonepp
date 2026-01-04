@@ -1,0 +1,11 @@
+{
+  "format_version": "1.21.6",
+  "ambientocclusion": false,
+  "parent": "redstonepp:block/coil",
+  "textures": {
+    "particle": "redstonepp:block/coil",
+    "base": "redstonepp:block/coil_on",
+    "trim": "redstonepp:block/diode_trim_1_on",
+    "torch": "block/redstone_torch"
+  }
+}

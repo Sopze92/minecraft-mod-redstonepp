@@ -1,0 +1,12 @@
+{
+  "format_version": "1.21.6",
+  "ambientocclusion": false,
+  "parent": "redstonepp:block/delay",
+  "textures": {
+    "honey": "block/honey_block_side",
+    "stone": "block/smooth_stone",
+    "particle": "block/repeater",
+    "base": "block/repeater_on",
+    "torch": "block/redstone_torch"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_daylight_detector",
+  "textures": {
+    "side": "redstonepp:block/light_detector_side",
+    "top": "redstonepp:block/light_detector_top"
+  }
+}

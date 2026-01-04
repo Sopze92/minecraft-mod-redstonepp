@@ -1,0 +1,228 @@
+{
+  "multipart": [
+    {
+      "apply": {"model": "redstonepp:block/random_emitter"},
+      "when": {"AND": [{"facing": "south", "powered": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/random_emitter", "y": 90},
+      "when": {"AND": [{"facing": "west", "powered": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/random_emitter", "y": 180},
+      "when": { "AND": [{"facing": "north", "powered": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/random_emitter", "y": 270},
+      "when": {"AND": [{"facing": "east", "powered": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/random_emitter_on"},
+      "when": {"AND": [{"facing": "south", "powered": "true"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/random_emitter_on", "y": 90},
+      "when": {"AND": [{"facing": "west", "powered": "true"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/random_emitter_on", "y": 180},
+      "when": { "AND": [{"facing": "north", "powered": "true"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/random_emitter_on", "y": 270},
+      "when": {"AND": [{"facing": "east", "powered": "true"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_on_extra"},
+      "when": {"AND": [{"facing": "south", "powered": "true"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_on_extra", "y": 90},
+      "when": {"AND": [{"facing": "west", "powered": "true"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_on_extra", "y": 180},
+      "when": { "AND": [{"facing": "north", "powered": "true"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/diode_on_extra", "y": 270},
+      "when": {"AND": [{"facing": "east", "powered": "true"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/random_emitter_signal_0"},
+      "when": {"AND": [{"facing": "south", "signal": "0"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/random_emitter_signal_0", "y": 90},
+      "when": {"AND": [{"facing": "west", "signal": "0"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/random_emitter_signal_0", "y": 180},
+      "when": { "AND": [{"facing": "north", "signal": "0"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/random_emitter_signal_0", "y": 270},
+      "when": {"AND": [{"facing": "east", "signal": "0"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/random_emitter_signal"},
+      "when": {"AND": [{"facing": "south", "signal": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/random_emitter_signal", "y": 90},
+      "when": {"AND": [{"facing": "west", "signal": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/random_emitter_signal", "y": 180},
+      "when": { "AND": [{"facing": "north", "signal": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/random_emitter_signal", "y": 270},
+      "when": {"AND": [{"facing": "east", "signal": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/random_emitter_tick"},
+      "when": {"AND": [{"facing": "south", "random": "true" }]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/random_emitter_tick", "y": 90},
+      "when": {"AND": [{"facing": "west", "random": "true" }]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/random_emitter_tick", "y": 180},
+      "when": { "AND": [{"facing": "north", "random": "true" }]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/random_emitter_tick", "y": 270},
+      "when": {"AND": [{"facing": "east", "random": "true" }]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/random_emitter_value_1"},
+      "when": {"AND": [{"facing": "south", "interval": "1", "random": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/random_emitter_value_1", "y": 90},
+      "when": {"AND": [{"facing": "west", "interval": "1", "random": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/random_emitter_value_1", "y": 180},
+      "when": { "AND": [{"facing": "north", "interval": "1", "random": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/random_emitter_value_1", "y": 270},
+      "when": {"AND": [{"facing": "east", "interval": "1", "random": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/random_emitter_value_2"},
+      "when": {"AND": [{"facing": "south", "interval": "2", "random": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/random_emitter_value_2", "y": 90},
+      "when": {"AND": [{"facing": "west", "interval": "2", "random": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/random_emitter_value_2", "y": 180},
+      "when": { "AND": [{"facing": "north", "interval": "2", "random": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/random_emitter_value_2", "y": 270},
+      "when": {"AND": [{"facing": "east", "interval": "2", "random": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/random_emitter_value_3"},
+      "when": {"AND": [{"facing": "south", "interval": "3", "random": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/random_emitter_value_3", "y": 90},
+      "when": {"AND": [{"facing": "west", "interval": "3", "random": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/random_emitter_value_3", "y": 180},
+      "when": { "AND": [{"facing": "north", "interval": "3", "random": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/random_emitter_value_3", "y": 270},
+      "when": {"AND": [{"facing": "east", "interval": "3", "random": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/random_emitter_value_4"},
+      "when": {"AND": [{"facing": "south", "interval": "4", "random": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/random_emitter_value_4", "y": 90},
+      "when": {"AND": [{"facing": "west", "interval": "4", "random": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/random_emitter_value_4", "y": 180},
+      "when": { "AND": [{"facing": "north", "interval": "4", "random": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/random_emitter_value_4", "y": 270},
+      "when": {"AND": [{"facing": "east", "interval": "4", "random": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/random_emitter_value_5"},
+      "when": {"AND": [{"facing": "south", "interval": "5", "random": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/random_emitter_value_5", "y": 90},
+      "when": {"AND": [{"facing": "west", "interval": "5", "random": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/random_emitter_value_5", "y": 180},
+      "when": { "AND": [{"facing": "north", "interval": "5", "random": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/random_emitter_value_5", "y": 270},
+      "when": {"AND": [{"facing": "east", "interval": "5", "random": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/random_emitter_value_6"},
+      "when": {"AND": [{"facing": "south", "interval": "6", "random": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/random_emitter_value_6", "y": 90},
+      "when": {"AND": [{"facing": "west", "interval": "6", "random": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/random_emitter_value_6", "y": 180},
+      "when": { "AND": [{"facing": "north", "interval": "6", "random": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/random_emitter_value_6", "y": 270},
+      "when": {"AND": [{"facing": "east", "interval": "6", "random": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/random_emitter_value_7"},
+      "when": {"AND": [{"facing": "south", "interval": "7", "random": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/random_emitter_value_7", "y": 90},
+      "when": {"AND": [{"facing": "west", "interval": "7", "random": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/random_emitter_value_7", "y": 180},
+      "when": { "AND": [{"facing": "north", "interval": "7", "random": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/random_emitter_value_7", "y": 270},
+      "when": {"AND": [{"facing": "east", "interval": "7", "random": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/random_emitter_value_8"},
+      "when": {"AND": [{"facing": "south", "interval": "8", "random": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/random_emitter_value_8", "y": 90},
+      "when": {"AND": [{"facing": "west", "interval": "8", "random": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/random_emitter_value_8", "y": 180},
+      "when": { "AND": [{"facing": "north", "interval": "8", "random": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/random_emitter_value_8", "y": 270},
+      "when": {"AND": [{"facing": "east", "interval": "8", "random": "false"}]}
+    }
+  ]
+}

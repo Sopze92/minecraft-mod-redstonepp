@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.sopze.mc.redstonepp.mixin",
+  "refmap": "refmap.json",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "HelperMixin$I_ComparatorBlockInvoker"
+  ],
+  "client": [
+    "GuiMixin$OptionsScreenMixin",
+    "HelperMixin$I_CrafterBlockInvoker",
+    "HelperMixin$I_DiodeBlockInvoker",
+    "HelperMixin$I_HopperBlockInvoker",
+    "RendererMixin$I_GameRendererInvoker"
+  ],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
+  

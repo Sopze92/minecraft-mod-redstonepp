@@ -1,0 +1,10 @@
+{
+  "format_version": "1.21.6",
+  "ambientocclusion": false,
+  "parent": "redstonepp:block/random_emitter",
+  "textures": {
+    "particle": "redstonepp:block/random_emitter",
+    "base": "redstonepp:block/random_emitter_on",
+    "torch": "block/redstone_torch"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "format_version": "1.21.6",
+  "ambientocclusion": false,
+  "parent": "redstonepp:block/oscillator",
+  "textures": {
+    "particle": "redstonepp:block/oscillator",
+    "base": "redstonepp:block/oscillator_on",
+    "trim": "redstonepp:block/diode_trim_0_on",
+    "torch": "block/redstone_torch"
+  }
+}

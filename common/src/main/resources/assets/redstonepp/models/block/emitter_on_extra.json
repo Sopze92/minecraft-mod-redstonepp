@@ -1,0 +1,58 @@
+{
+  "format_version": "1.21.6",
+  "ambientocclusion": false,
+  "textures": {
+    "torch": "block/redstone_torch",
+    "particle": "block/smooth_stone"
+  },
+  "elements": [
+    {
+      "from": [9.5, 11.5, 1.5],
+      "to": [9.5, 14.5, 4.5],
+      "shade": false,
+      "faces": {
+        "west": {"uv": [9, 5, 10, 6], "texture": "#torch"}
+      }
+    },
+    {
+      "from": [6.5, 11.5, 1.5],
+      "to": [6.5, 14.5, 4.5],
+      "shade": false,
+      "faces": {
+        "east": {"uv": [9, 5, 10, 6], "texture": "#torch"}
+      }
+    },
+    {
+      "from": [6.5, 11.5, 1.5],
+      "to": [9.5, 11.5, 4.5],
+      "shade": false,
+      "faces": {
+        "up": {"uv": [9, 5, 10, 6], "texture": "#torch"}
+      }
+    },
+    {
+      "from": [6.5, 14.5, 1.5],
+      "to": [9.5, 14.5, 4.5],
+      "shade": false,
+      "faces": {
+        "down": {"uv": [9, 5, 10, 6], "texture": "#torch"}
+      }
+    },
+    {
+      "from": [6.5, 11.5, 4.5],
+      "to": [9.5, 14.5, 4.5],
+      "shade": false,
+      "faces": {
+        "north": {"uv": [9, 5, 10, 6], "texture": "#torch"}
+      }
+    },
+    {
+      "from": [6.5, 11.5, 1.5],
+      "to": [9.5, 14.5, 1.5],
+      "shade": false,
+      "faces": {
+        "south": {"uv": [9, 5, 10, 6], "texture": "#torch"}
+      }
+    }
+  ]
+}
