@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CCC"
+  ],
+  "key": {
+    "A": "minecraft:redstone",
+    "B": "minecraft:iron_ingot",
+    "C": "minecraft:endstone"
+  },
+  "result": {
+    "id": "redstonepp:latch",
+    "count": 1
+  }
+}

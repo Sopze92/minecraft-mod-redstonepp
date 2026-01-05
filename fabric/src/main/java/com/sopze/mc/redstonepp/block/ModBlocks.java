@@ -26,6 +26,7 @@ public class ModBlocks {
     REGULATOR,
     RESISTOR,
     COIL,
+    LATCH,
     SIGNAL_OPERATOR,
     LOGIC_OPERATOR,
     MANLIGHT_DETECTOR,
@@ -43,6 +44,8 @@ public class ModBlocks {
     REGULATOR = _register("regulator", RegulatorBlock::new);
     RESISTOR = _register("resistor", ResistorBlock::new);
     COIL = _register("coil", CoilBlock::new);
+
+    LATCH = _register("latch", LatchBlock::new);
 
     SIGNAL_OPERATOR = _register("signal_operator", SignalOperatorBlock::new);
     LOGIC_OPERATOR = _register("logic_operator", LogicOperatorBlock::new);

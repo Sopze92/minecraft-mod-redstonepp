@@ -177,7 +177,7 @@ public class DebugOverlay {
             valid= true;
           }
 
-          if(valid) {
+          if(valid || (present && entry.valid)) {
             if(create) entryMap.put(pos, new OverlayEntry(state, height, color, lines));
             else entry.set(state, height, color, lines);
           }

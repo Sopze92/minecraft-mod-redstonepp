@@ -1,0 +1,132 @@
+{
+  "multipart": [
+    {
+      "apply": {"model": "redstonepp:block/latch_input"},
+      "when": {"AND": [{"facing": "south", "powered": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/latch_input", "y": 90},
+      "when": {"AND": [{"facing": "west", "powered": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/latch_input", "y": 180},
+      "when": { "AND": [{"facing": "north", "powered": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/latch_input", "y": 270},
+      "when": {"AND": [{"facing": "east", "powered": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/latch_input_on"},
+      "when": {"AND": [{"facing": "south", "powered": "true"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/latch_input_on", "y": 90},
+      "when": {"AND": [{"facing": "west", "powered": "true"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/latch_input_on", "y": 180},
+      "when": { "AND": [{"facing": "north", "powered": "true"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/latch_input_on", "y": 270},
+      "when": {"AND": [{"facing": "east", "powered": "true"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/latch_input_on_extra"},
+      "when": {"AND": [{"facing": "south", "powered": "true"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/latch_input_on_extra", "y": 90},
+      "when": {"AND": [{"facing": "west", "powered": "true"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/latch_input_on_extra", "y": 180},
+      "when": { "AND": [{"facing": "north", "powered": "true"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/latch_input_on_extra", "y": 270},
+      "when": {"AND": [{"facing": "east", "powered": "true"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/latch"},
+      "when": {"AND": [{"facing": "south", "locked": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/latch", "y": 90},
+      "when": {"AND": [{"facing": "west", "locked": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/latch", "y": 180},
+      "when": { "AND": [{"facing": "north", "locked": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/latch", "y": 270},
+      "when": {"AND": [{"facing": "east", "locked": "false"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/latch_locked"},
+      "when": {"AND": [{"facing": "south", "locked": "true"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/latch_locked", "y": 90},
+      "when": {"AND": [{"facing": "west", "locked": "true"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/latch_locked", "y": 180},
+      "when": { "AND": [{"facing": "north", "locked": "true"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/latch_locked", "y": 270},
+      "when": {"AND": [{"facing": "east", "locked": "true"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/latch_output"},
+      "when": {"AND": [{"facing": "south", "signal": "0"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/latch_output", "y": 90},
+      "when": {"AND": [{"facing": "west", "signal": "0"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/latch_output", "y": 180},
+      "when": { "AND": [{"facing": "north", "signal": "0"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/latch_output", "y": 270},
+      "when": {"AND": [{"facing": "east", "signal": "0"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/latch_output_on"},
+      "when": {"AND": [{"facing": "south", "signal": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/latch_output_on", "y": 90},
+      "when": {"AND": [{"facing": "west", "signal": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/latch_output_on", "y": 180},
+      "when": { "AND": [{"facing": "north", "signal": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/latch_output_on", "y": 270},
+      "when": {"AND": [{"facing": "east", "signal": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/latch_output_on_extra"},
+      "when": {"AND": [{"facing": "south", "signal": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/latch_output_on_extra", "y": 90},
+      "when": {"AND": [{"facing": "west", "signal": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/latch_output_on_extra", "y": 180},
+      "when": { "AND": [{"facing": "north", "signal": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15"}]}
+    },
+    {
+      "apply": {"model": "redstonepp:block/latch_output_on_extra", "y": 270},
+      "when": {"AND": [{"facing": "east", "signal": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15"}]}
+    }
+  ]
+}

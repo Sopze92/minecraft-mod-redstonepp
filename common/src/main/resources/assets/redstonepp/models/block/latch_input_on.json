@@ -1,0 +1,10 @@
+{
+  "format_version": "1.21.6",
+  "ambientocclusion": false,
+  "parent": "redstonepp:block/latch_input",
+  "textures": {
+    "particle": "redstonepp:block/latch",
+    "base": "redstonepp:block/latch_on",
+    "torch": "block/redstone_torch"
+  }
+}

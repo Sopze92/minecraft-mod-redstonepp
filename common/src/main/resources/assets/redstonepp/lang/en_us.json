@@ -32,6 +32,8 @@
   "block.redstonepp.resistor":                        "Redstone Resistor",
   "block.redstonepp.coil":                            "Redstone Coil",
 
+  "block.redstonepp.latch":                           "Redstone Latch",
+
   "block.redstonepp.signal_operator":                 "Redstone Signal Operator",
   "block.redstonepp.logic_operator":                  "Redstone Logical Operator",
 

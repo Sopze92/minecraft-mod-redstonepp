@@ -29,6 +29,7 @@ public class ModItems {
     REGULATOR,
     RESISTOR,
     COIL,
+    LATCH,
     SIGNAL_OPERATOR,
     LOGIC_OPERATOR,
     MANLIGHT_DETECTOR,
@@ -46,6 +47,8 @@ public class ModItems {
     REGULATOR = _register(ModBlocks.REGULATOR);
     RESISTOR = _register(ModBlocks.RESISTOR);
     COIL = _register(ModBlocks.COIL);
+
+    LATCH= _register(ModBlocks.LATCH);
 
     SIGNAL_OPERATOR = _register(ModBlocks.SIGNAL_OPERATOR);
     LOGIC_OPERATOR = _register(ModBlocks.LOGIC_OPERATOR);
@@ -80,6 +83,8 @@ public class ModItems {
         REGULATOR,
         RESISTOR,
         COIL,
+
+        LATCH,
 
         SIGNAL_OPERATOR,
         LOGIC_OPERATOR
