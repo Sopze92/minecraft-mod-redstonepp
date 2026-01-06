@@ -2,7 +2,7 @@ package com.sopze.mc.redstonepp.block;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
 import net.minecraft.world.level.material.PushReaction;
@@ -56,7 +56,7 @@ public class ModBlocks {
     CUTOUT_BLOCKS= new Block[]{ EMITTER, PULSE, OSCILLATOR, REGULATOR, RESISTOR, COIL, RANDOM_EMITTER, SIGNAL_OPERATOR, LOGIC_OPERATOR };
   }
 
-  private static Block _register(String id, Function<Properties, Block> factory, Properties settings) { return Blocks.register(ResourceKey.create(Registries.BLOCK, ResourceLocation.fromNamespaceAndPath(MOD_ID, id)), factory, settings); }
+  private static Block _register(String id, Function<Properties, Block> factory, Properties settings) { return Blocks.register(ResourceKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(MOD_ID, id)), factory, settings); }
   private static Block _register(String id, Properties settings) { return _register(id, Block::new, settings); }
 
   private static Block _register(String id, Function<Properties, Block> factory){ return _register(id, factory, Properties.of().instabreak().sound(SoundType.STONE).pushReaction(PushReaction.DESTROY)); }

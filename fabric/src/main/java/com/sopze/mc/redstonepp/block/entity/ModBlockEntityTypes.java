@@ -4,7 +4,7 @@ import com.sopze.mc.redstonepp.block.ModBlocks;
 import net.fabricmc.fabric.api.object.builder.v1.block.entity.FabricBlockEntityTypeBuilder;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.entity.BlockEntityType;
@@ -27,7 +27,7 @@ public class ModBlockEntityTypes {
   }
 
   public static <T extends BlockEntityType<?>> T register(String path, FabricBlockEntityTypeBuilder.Factory<? extends BlockEntity> factory, Block... blocks) {
-    return (T)Registry.register(BuiltInRegistries.BLOCK_ENTITY_TYPE, ResourceLocation.fromNamespaceAndPath(MOD_ID, path), FabricBlockEntityTypeBuilder.create(factory, blocks).build());
+    return (T)Registry.register(BuiltInRegistries.BLOCK_ENTITY_TYPE, Identifier.fromNamespaceAndPath(MOD_ID, path), FabricBlockEntityTypeBuilder.create(factory, blocks).build());
   }
 
   public static void initialize() {}

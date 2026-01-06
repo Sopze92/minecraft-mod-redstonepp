@@ -13,6 +13,7 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.util.Mth;
 import net.minecraft.world.InteractionResult;
+import net.minecraft.world.attribute.EnvironmentAttributes;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.Level;
@@ -78,7 +79,7 @@ public class LightDetectorBlock extends BaseEntityBlock implements I_OverlayInfo
 
     if (inverted) light= 15 - Math.max(light, skylight);
     else if (skylight > 0) {
-      float angle = level.getSunAngle(1.0f);
+      float angle = level.environmentAttributes().getValue(EnvironmentAttributes.SUN_ANGLE, pos) * ((float)Math.PI / 180F);
       float f1 = (float)(angle < Math.PI ? .0d : (Math.PI * 2d));
       angle += (f1 - angle) * .2f;
       skylight = Math.round(skylight * Mth.cos(angle));

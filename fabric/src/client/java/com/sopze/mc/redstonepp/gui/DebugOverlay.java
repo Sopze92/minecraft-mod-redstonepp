@@ -21,7 +21,7 @@ import net.minecraft.client.multiplayer.ClientLevel;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.core.Vec3i;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.level.ClipContext;
@@ -44,7 +44,7 @@ import static com.sopze.mc.redstonepp.Constants.*;
 
 public class DebugOverlay {
 
-  private static final ResourceLocation overlayId= ResourceLocation.fromNamespaceAndPath(MOD_ID, "overlay");
+  private static final Identifier overlayId= Identifier.fromNamespaceAndPath(MOD_ID, "overlay");
 
   private final ScreenOverlay overlay;
 

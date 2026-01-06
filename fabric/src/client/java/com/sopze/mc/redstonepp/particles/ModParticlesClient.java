@@ -1,14 +1,6 @@
 package com.sopze.mc.redstonepp.particles;
 
 import net.fabricmc.fabric.api.client.particle.v1.ParticleFactoryRegistry;
-import net.fabricmc.fabric.api.particle.v1.FabricParticleTypes;
-import net.minecraft.client.particle.GlowParticle;
-import net.minecraft.core.Registry;
-import net.minecraft.core.particles.SimpleParticleType;
-import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.resources.ResourceLocation;
-
-import static com.sopze.mc.redstonepp.Constants.MOD_ID;
 
 public class ModParticlesClient {
 

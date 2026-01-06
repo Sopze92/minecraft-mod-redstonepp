@@ -7,7 +7,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -57,7 +57,7 @@ public class ModItems {
     LIGHT_DETECTOR = _register(ModBlocks.LIGHT_DETECTOR);
   }
 
-  private static Item _register(String id, Function<Item.Properties, Item> factory) { return Items.registerItem(ResourceKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath(MOD_ID, id)), factory); }
+  private static Item _register(String id, Function<Item.Properties, Item> factory) { return Items.registerItem(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(MOD_ID, id)), factory); }
   private static Item _register(Block block){
     return Items.registerBlock(block);
   }
