@@ -2,7 +2,7 @@
   "required": true,
   "minVersion": "0.8",
   "package": "com.sopze.mc.redstonepp.mixin",
-  "refmap": "refmap.json",
+  "refmap": "sop.refmap.redstonepp.json",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
     "HelperMixin$I_ComparatorBlockInvoker"

@@ -3,13 +3,12 @@
   "pattern": [
     " A ",
     "BCB",
-    "DDD"
+    "BBB"
   ],
   "key": {
     "A": "minecraft:redstone_torch",
-    "B": "minecraft:glass",
-    "C": "minecraft:redstone_block",
-    "D": "minecraft:stone"
+    "B": "minecraft:stone",
+    "C": "minecraft:redstone_block"
   },
   "result": {
     "id": "redstonepp:emitter",

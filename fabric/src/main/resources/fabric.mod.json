@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "${mod_id}",
+  "id": "redstonepp",
   "version": "${version}",
   "name": "${mod_name}",
   "description": "${description}",
-  "icon": "assets/${mod_id}/icon.png",
+  "icon": "assets/redstonepp/icon.png",
   "license": "${license}",
   "authors": [
     { "name": "Sergio 'sopze'", "contact": { "homepage": "https://sopze.com/", "email": "sergiodepa92@gmail.com" } }
@@ -32,14 +32,14 @@
   },
   "environment": "*",
   "entrypoints": {
-    "client": [ "com.sopze.mc.${mod_id}.MainClient" ],
-    "main": [ "com.sopze.mc.${mod_id}.MainFabric" ],
-    "modmenu": [ "com.sopze.mc.${mod_id}.comms.ModMenu" ]
+    "client": [ "com.sopze.mc.redstonepp.MainClient" ],
+    "main": [ "com.sopze.mc.redstonepp.MainFabric" ],
+    "modmenu": [ "com.sopze.mc.redstonepp.comms.ModMenu" ]
   },
   "mixins": [
-    "mixins.common.json",
-    "mixins.fabric.client.json",
-    "mixins.fabric.common.json"
+    "sop.mixins.redstonepp.common.json",
+    "sop.mixins.redstonepp.fabric.client.json",
+    "sop.mixins.redstonepp.fabric.common.json"
   ]
 }
   
