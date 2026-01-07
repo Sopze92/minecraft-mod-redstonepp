@@ -1,5 +1,5 @@
 ## Description
-Few components to extend redstone in a way that fits the mood and feel of the Vanilla experience, also preserving the "circuit" style redstoning, no automatic machines that do everything in one block in a cheap-ish way
+A 'redstone debugger overlay' and a few components to extend redstone in a way that fits the mood and feel of the Vanilla experience, also preserving the "circuit" style redstoning, no automatic machines that do everything in one block in a cheap-ish way
 
 <p align="center">
 <br>
