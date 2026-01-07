@@ -11,11 +11,11 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_endstone": {
+    "has_end_stone": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:endstone"
+            "items": "minecraft:end_stone"
           }
         ]
       },
@@ -32,7 +32,7 @@
     [
       "has_the_recipe",
       "has_redstone",
-      "has_endstone"
+      "has_end_stone"
     ]
   ],
   "rewards": {
