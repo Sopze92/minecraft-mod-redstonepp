@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_redstone_torch": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:redstone_torch"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_amethyst_cluster": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:amethyst_cluster"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "redstonepp:logic_operator"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_redstone_torch",
+      "has_amethyst_cluster"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "redstonepp:logic_operator"
+    ]
+  }
+}

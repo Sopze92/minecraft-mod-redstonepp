@@ -6,7 +6,7 @@
   ],
   "key": {
     "A": "minecraft:redstone",
-    "B": "minecraft:resin_brick",
+    "B": "minecraft:resin_block",
     "C": "minecraft:redstone_torch",
     "D": "minecraft:stone"
   },
