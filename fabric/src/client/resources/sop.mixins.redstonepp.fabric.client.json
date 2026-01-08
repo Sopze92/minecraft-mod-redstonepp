@@ -9,9 +9,7 @@
   ],
   "client": [
     "GuiMixin$OptionsScreenMixin",
-    "HelperMixin$I_CrafterBlockInvoker",
     "HelperMixin$I_DiodeBlockInvoker",
-    "HelperMixin$I_HopperBlockInvoker",
     "RendererMixin$I_GameRendererInvoker"
   ],
   "server": [],

@@ -20,17 +20,6 @@ import org.spongepowered.asm.mixin.gen.Invoker;
 
 public class HelperMixin {
 
-  @Mixin(HopperBlock.class)
-  public interface I_HopperBlockInvoker {
-    @Invoker("getAnalogOutputSignal") int i_getAnalogOutputSignal(BlockState state, Level level, BlockPos pos, Direction direction);
-  }
-
-  @Mixin(CrafterBlock.class)
-  public interface I_CrafterBlockInvoker {
-    @Accessor("ORIENTATION") static EnumProperty<FrontAndTop> getOrientation() { throw new AssertionError(); }
-    @Invoker("getAnalogOutputSignal") int i_getAnalogOutputSignal(BlockState state, Level level, BlockPos pos, Direction direction);
-  }
-
   @Mixin(DiodeBlock.class)
   public interface I_DiodeBlockInvoker {
     @Invoker("getOutputSignal") int i_getOutputSignal(BlockGetter level, BlockPos pos, BlockState state);

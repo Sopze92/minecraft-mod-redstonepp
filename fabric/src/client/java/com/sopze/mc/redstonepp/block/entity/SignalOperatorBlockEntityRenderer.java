@@ -10,6 +10,7 @@ import net.minecraft.client.renderer.blockentity.BlockEntityRendererProvider;
 import net.minecraft.client.renderer.blockentity.state.BlockEntityRenderState;
 import net.minecraft.client.renderer.feature.ModelFeatureRenderer;
 import net.minecraft.client.renderer.state.CameraRenderState;
+import net.minecraft.network.chat.Style;
 import net.minecraft.util.FormattedCharSequence;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.Vec3;
@@ -50,6 +51,7 @@ public class SignalOperatorBlockEntityRenderer implements BlockEntityRenderer<Si
 
   public void extractRenderState(SignalOperatorBlockEntity blockEntity, SignalOperatorBlockEntityRenderer.RenderState renderState, float partialTick, Vec3 cameraPosition, @Nullable ModelFeatureRenderer.CrumblingOverlay breakProgress) {
     BlockEntityRenderState.extractBase(blockEntity, renderState, breakProgress);
+    //renderState.modeText= FormattedCharSequence.forward("op", Style.EMPTY);
     renderState.modeText= blockEntity.getModeText();
   }
 
