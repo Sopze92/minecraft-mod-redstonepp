@@ -270,8 +270,8 @@ public class DebugOverlay {
               powered,
               "facing: " + direction,
               "mode: " + state.getValue(BlockStateProperties.MODE_COMPARATOR),
-              signalside == 0 ? "input: " + signal : String.format("input: %d (%d side)", signal, signalside),
-              "output: " + ((HelperMixin.I_ComparatorBlockInvoker) block).i_calculateOutputSignal(level, targetPos, state)
+              signalside == 0 ? "input: " + signal : String.format("input: %d (%d side)", signal, signalside)//,
+              //"output: " + ((HelperMixin.I_ComparatorBlockInvoker) block).i_calculateOutputSignal(level, targetPos, state)
             };
             height = .334f;
             valid = true;
@@ -280,8 +280,8 @@ public class DebugOverlay {
         else if (block instanceof DispenserBlock) {
           lines = new String[]{
             "triggered: " + state.getValue(BlockStateProperties.TRIGGERED),
-            "facing: " + state.getValue(BlockStateProperties.FACING),
-            "analog: " + AbstractContainerMenu.getRedstoneSignalFromBlockEntity(level.getBlockEntity(targetPos))
+            "facing: " + state.getValue(BlockStateProperties.FACING)//,
+            //"analog: " + AbstractContainerMenu.getRedstoneSignalFromBlockEntity(level.getBlockEntity(targetPos))
           };
           height = .95f;
           valid = true;
@@ -305,8 +305,8 @@ public class DebugOverlay {
           lines = new String[]{
             "triggered: " + state.getValue(BlockStateProperties.TRIGGERED),
             "crafting: " + state.getValue(BlockStateProperties.CRAFTING),
-            "orientation: " + state.getValue(BlockStateProperties.ORIENTATION),
-            "analog: " + (entity instanceof CrafterBlockEntity crafterEntity ? crafterEntity.getRedstoneSignal() : 0)
+            "orientation: " + state.getValue(BlockStateProperties.ORIENTATION)//,
+            //"analog: " + (entity instanceof CrafterBlockEntity crafterEntity ? crafterEntity.getRedstoneSignal() : 0)
           };
           height = .95f;
           valid = true;
@@ -317,8 +317,8 @@ public class DebugOverlay {
 
           lines = new String[]{
             "facing: " + direction,
-            "enabled: " + state.getValue(BlockStateProperties.ENABLED),
-            "analog: " + AbstractContainerMenu.getRedstoneSignalFromBlockEntity(level.getBlockEntity(targetPos))
+            "enabled: " + state.getValue(BlockStateProperties.ENABLED)//,
+            //"analog: " + AbstractContainerMenu.getRedstoneSignalFromBlockEntity(level.getBlockEntity(targetPos))
           };
           height = .95f;
           valid = true;

@@ -50,6 +50,7 @@ public class SignalOperatorBlockEntityRenderer implements BlockEntityRenderer<Si
 
   public void extractRenderState(SignalOperatorBlockEntity blockEntity, SignalOperatorBlockEntityRenderer.RenderState renderState, float partialTick, Vec3 cameraPosition, @Nullable ModelFeatureRenderer.CrumblingOverlay breakProgress) {
     BlockEntityRenderState.extractBase(blockEntity, renderState, breakProgress);
+    //renderState.modeText= FormattedCharSequence.forward("op", Style.EMPTY);
     renderState.modeText= blockEntity.getModeText();
   }
 

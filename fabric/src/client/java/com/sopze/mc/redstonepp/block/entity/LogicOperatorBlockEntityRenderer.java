@@ -80,6 +80,7 @@ public class LogicOperatorBlockEntityRenderer implements BlockEntityRenderer<Log
 
   public void extractRenderState(LogicOperatorBlockEntity blockEntity, LogicOperatorBlockEntityRenderer.RenderState renderState, float partialTick, Vec3 cameraPosition, @Nullable ModelFeatureRenderer.CrumblingOverlay breakProgress) {
     BlockEntityRenderState.extractBase(blockEntity, renderState, breakProgress);
+    //renderState.modeText= FormattedCharSequence.forward("op", Style.EMPTY);
     renderState.modeText= blockEntity.getModeText();
   }
 
