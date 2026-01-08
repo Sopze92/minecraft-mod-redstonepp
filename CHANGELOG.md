@@ -1,9 +1,13 @@
-## Redstone++ v1.0.4-beta
+## Redstone++ v1.0.6-beta
+
++ Cleanup on debug renderer
+
+## Redstone++ v1.0.5-beta
 
 + Fixed some recipes typo on an ID
 + Moved recipe book entries to _'redstone'_ section
 
-## Redstone++ v1.0.3-beta
+## Redstone++ v1.0.4-beta
 
 + Recipe book entries for all existent recipes
 
