@@ -1,5 +1,7 @@
 ## Description
-A 'redstone debugger overlay' and a few components to extend redstone in a way that fits the mood and feel of the Vanilla experience, also preserving the "circuit" style redstoning, no automatic machines that do everything in one block in a cheap-ish way
+This mod aims to enhance the vanilla redstone experience in a vanilla fitting style by adding some useful components and easing the construction process of your redstone contraptions
+
+Includes a 'redstone debugger overlay' and 14 blocks in a way that fits the mood and feel of Vanilla Minecraft, also preserving the "circuit" style redstoning, no automatic block-machines that do everything in a cheap-ish way
 
 <p align="center">
 <br>
@@ -20,6 +22,11 @@ A 'redstone debugger overlay' and a few components to extend redstone in a way t
   <a href="https://www.buymeacoffee.com/sopze" target="_blank"><img width=256px src="https://github.com/Sopze92/minecraft-mod-redstonepp/blob/main/.resources/donate_button_buymeacoffee.webp?raw=true" alt="buy me a coffee"></a>
 </p>
 <hr>
+
+### <p align="center">BETA STAGE</p>
+This mod is on beta and may misbehave sometimes, it will only be available for Fabric during beta stage (probably)
+
+More Features are already planned for the future, including server support, fully directional redstone (which includes vertical axis), and item transport + filtering systems that also fits vanilla (which no mod has done yet)
 
 ### <p align="center">Dependencies (Fabric)</p>
 - [Fabric-API](https://modrinth.com/mod/fabric-api)

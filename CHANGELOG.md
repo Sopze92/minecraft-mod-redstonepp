@@ -1,32 +1,31 @@
-## Redstone++ v1.0.6-beta
+## Redstone++ v0.3.3-beta
 
 + Cleanup on debug renderer
 
-## Redstone++ v1.0.5-beta
+## Redstone++ v0.3.2-beta
 
 + Fixed some recipes typo on an ID
 + Moved recipe book entries to _'redstone'_ section
 
-## Redstone++ v1.0.4-beta
+## Redstone++ v0.3.1-beta
 
 + Recipe book entries for all existent recipes
 
-## Redstone++ v1.0.3-beta (First published version)
+## Redstone++ v0.3.0-beta
 
 + Added 1.21.11 version
 + Dropped 1.21.9 due fabric missing features there
-+ Block: Redstone Latch _(w recipe and EN_US localization)_
 
-## Redstone++ v1.0.2-beta
+## Redstone++ v0.2.1-beta
 
 + Changed emitter recipe
 
-## Redstone++ v1.0.1-beta
+## Redstone++ v0.2.0-beta
 
 + Mod icon
 + Block: Redstone Latch _(w recipe and EN_US localization)_
 
-## Redstone++ v1.0.0-beta
+## Redstone++ v0.1.0-beta
 
 + Block: Redstone Emitter
 + Block: Redstone Random Emitter
