@@ -17,7 +17,8 @@
   "custom": {
     "modmenu": {
       "links": {
-        "link.redstonepp.authorpage": "https://sopze.com/"
+        "link.redstonepp.authorpage": "https://sopze.com/",
+        "Wiki": "https://github.com/Sopze92/minecraft-mod-${mod_id}/wiki"
       }
     }
   },
