@@ -1,7 +1,7 @@
 ## Description
 This mod aims to enhance the vanilla redstone experience in a vanilla fitting style by adding some useful components and easing the construction process of your redstone contraptions
 
-Includes a 'redstone debugger overlay' and 14 blocks in a way that fits the mood and feel of Vanilla Minecraft, also preserving the "circuit" style redstoning, no automatic block-machines that do everything in a cheap-ish way
+As for now, it includes a 'redstone debugger overlay' and 14 blocks in a way that fits the mood and feel of Vanilla Minecraft, also preserving the "circuit" style redstoning, no automatic block-machines that do everything in a cheap-ish way
 
 <p align="center">
 <br>
@@ -19,53 +19,59 @@ Includes a 'redstone debugger overlay' and 14 blocks in a way that fits the mood
 
 <p align="center">
   <a href="https://www.paypal.com/donate/?hosted_button_id=WPVF2NFY2XHE6" target="_blank"><img width=256px src="https://github.com/Sopze92/minecraft-mod-redstonepp/blob/main/.resources/donate_button_paypaldonate.webp?raw=true" alt="donate with paypal"></a>
+<img width=16px>
   <a href="https://www.buymeacoffee.com/sopze" target="_blank"><img width=256px src="https://github.com/Sopze92/minecraft-mod-redstonepp/blob/main/.resources/donate_button_buymeacoffee.webp?raw=true" alt="buy me a coffee"></a>
 </p>
 <hr>
 
-### <p align="center">BETA STAGE</p>
-This mod is on beta and may misbehave sometimes, it will only be available for Fabric during beta stage (probably)
+### <p align="center">BETA</p>
+The content included is stable and tested, however, the mod is still on beta stage and it will only be available for Fabric ModLoader during this stage (probably), please [send feedback](https://github.com/Sopze92/minecraft-mod-redstonepp/issues) if you experience any crash or bug caused by this mod
 
 More Features are already planned for the future, including server support, fully directional redstone (which includes vertical axis), and item transport + filtering systems that also fits vanilla (which no mod has done yet)
+<hr>
 
 ### <p align="center">Dependencies (Fabric)</p>
 - [Fabric-API](https://modrinth.com/mod/fabric-api)
 <hr>
 
-### <p align="center">What this Mod includes</p>
+### <p align="center">Wiki</p>
+There is a [very basic wiki](https://github.com/Sopze92/minecraft-mod-redstonepp/wiki) available for this mod explaining the craftings and usages of all the current content
+<hr>
 
-+ **Redstone Emitter Block**
+### <p align="center">What this Mod includes</p>
+<p align="center"><img src="https://github.com/Sopze92/minecraft-mod-redstonepp/blob/main/.resources/preview0.webp"></p>
+
++ 1.1 **Redstone Emitter Block**
   - _(redstone source + configurable strength)_
-+ **Redstone Random Emitter Block**
++ 1.2 **Redstone Random Emitter Block**
   - _(random redstone source pulse + configurable/automatic interval)_
-+ **Redstone Inverter Block**
++ 1.3 **Redstone Inverter Block**
   - _(inverts redstone signal, similar to what torches do)_
-+ **Redstone Delay Block**
-  - _(just like a repeater, but with longer times)_
-+ **Redstone Pulse Block**
++ 1.4 **Redstone Pulse Block**
   - _(emits redstone pulses + configurable interval)_
-+ **Redstone Oscillator Block**
++ 1.5 **Redstone Oscillator Block**
   - _(oscillates a redstone signal + configurable interval)_
-+ **Redstone Regulator Block**
-  - _(limits a redstone signal to a configurable limit strength threshold)_
-+ **Redstone Resistor Block**
-  - _(decrements a configurable strength value from a redstone signal)_
-+ **Redstone Coil Block**
++ 2.1 **Redstone Coil Block**
   - _(increments a configurable strength value from a redstone signal)_
-+ **Redstone Signal Operator Block**
-  - _(allows to perform signal strength comparisons between redstone signals)_
-+ **Redstone Logic Operator Block**
-  - _(allows to perform logical comparisons between redstone signals)_
-+ **Redstone Latch Block**
-  - _(switch its on/off state every time it gets powered)_
-+ **Manlight Detector Block**
++ 2.2 **Redstone Resistor Block**
+  - _(decrements a configurable strength value from a redstone signal)_
++ 2.3 **Redstone Regulator Block**
+  - _(limits a redstone signal to a configurable limit strength threshold)_
++ 2.4 **Redstone Delay Block**
+  - _(just like a repeater, but with longer times)_
++ 2.5 **Manlight Detector Block**
   - _(detects and outputs the block light level of artificial sources)_
-+ **Light Detector Block**
++ 2.6 **Light Detector Block**
   - _(detects and outputs the block light level, sky or artificial)_
++ 3.1 **Redstone Latch Block**
+  - _(switch its on/off state every time it gets powered)_
++ 3.2 **Redstone Signal Operator Block**
+  - _(allows to perform signal strength comparisons between redstone signals)_
++ 3.3 **Redstone Logic Operator Block**
+  - _(allows to perform logical comparisons between redstone signals)_
 + **Redstone debug UI overlays**
   - _(show some redstone-related block info directly in-block)_
 - **Recipe Book entries** for all new recipes
-
 <hr>
 
 ### <p align="center">Singleplayer / Online</p>
