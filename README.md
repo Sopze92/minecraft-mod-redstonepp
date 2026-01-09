@@ -66,7 +66,7 @@ The mod is made to be SinglePlayer, but as by how it works, it should work onlin
 <hr>
 
 ## Recipes
-<p align="center"><img width=512px src="https://github.com/Sopze92/minecraft-mod-redstonepp/blob/main/.resources/recipes.webp?raw=true" alt="content"></p>
+<p align="center"><img width=512px src="https://github.com/Sopze92/minecraft-mod-redstonepp/blob/main/.resources/recipes1.webp?raw=true" alt="content"></p>
 <hr>
 
 ## Installation
